@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'roboto', sans-serifgi;
+}
+
+
+.header {
+    display: flex;
+    height: 64px;
+    position: fixed;
+    z-index: 100;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    position: inherit;
+    height: 32px;
+    align-items: center;
+} 
+
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 16px;
+    left: 24px;
+}
+
+h3 {
+    display: flex;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.linksbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 30px
+}
+
+.linksbox button {
+    background-color: darkslategray;
+    color: whitesmoke;
+    font-family: 'roboto', sans-serif;
+    width: 50px;
+    height: 20px;
+    border-radius: 1;
+}
+
+.link {
+    padding: 1rem;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.imgbox {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: lightgray;
+    position: relative;
+    top: 64px;
+    width: 100%;
+}
+
+.img1 {
+    flex-shrink: 1;
+    max-width: 60%;
+    max-height: 450px;
+    overflow: hidden;
+    padding: 0px 0px 0px 32px;
+}
+
+.button2 {
+    flex-shrink: 3;
+    text-align: center;
+    padding: 0 25px
+}
+
+.button2 button {
+    width: 90%;
+    height: 3rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+#colmar {
+    color: darkslategray;
+}
+
+#acadamy {
+    color: darkgray;
+}
+
