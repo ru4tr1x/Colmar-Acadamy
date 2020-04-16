@@ -4,6 +4,41 @@ body {
     font-family: 'roboto', sans-serifgi;
 }
 
+/*elements*/
+
+h3 {
+    display: flex;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 15px;
+}
+
+/* HEADER SECTION ClASS's */
 
 .header {
     display: flex;
@@ -30,24 +65,6 @@ body {
     left: 24px;
 }
 
-h3 {
-    display: flex;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-
-h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-}
-
-p {
-    font-family: "roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
 .linksbox {
     display: flex;
     justify-content: flex-end;
@@ -62,7 +79,6 @@ p {
     font-family: 'roboto', sans-serif;
     width: 50px;
     height: 20px;
-    border: 1px solid darkgray;
     border-radius: 10px;
 }
 
@@ -72,42 +88,109 @@ p {
     color: darkslategray;
 }
 
-.imgbox {
-    display: inline-flex;
-    justify-content: space-around;
+/* main body class's */
+
+.bigbox {
+    display: flex;
     align-items: center;
-    height: 500px;
-    background-color: lightgray;
+    justify-content: flex-end;
     position: relative;
     top: 64px;
     width: 100%;
 }
 
-.img1 {
-    flex-shrink: 1;
-    max-width: 60%;
-    max-height: 450px;
-    overflow: hidden;
-    border-radius: 15px;
+.light {
+    background-color: whitesmoke;
+    height: 595px;
+}
+
+.dark {
+    background-color: lightgray;
+    height: 580px;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 98%;
+    height: 90%;
     position: relative;
-    left: 15px;
 }
 
-.button2 {
-    flex-shrink: 3;
-    text-align: center;
-    padding: 0 25px
+.imgbox {
+    height: 100%;
+    width: 60%;
+    flex-shrink: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-.button2 button {
-    width: 90%;
+.infobox {
+    height: 100%;
+    width: 40%;
+    flex-shrink: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+} 
+
+.infobox button {
+    width: 85%;
     height: 3rem;
     font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: large;
-    background-color: darkgray;
+    background-color: darkslategray;
     color: whitesmoke;
     border-radius: 15px;
+    margin: 0 auto;
+}
+
+.bigimg {
+    flex-shrink: 2;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.thumbox {
+    width: 95%;
+    min-width: 300px;
+    height: inherit;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-shrink: 2;
+}
+    
+.info {
+    padding: 1rem;
+    text-align: center;
+    width: 275px;
+    min-width: 200px;
+    flex-shrink: 2;
+}
+
+.smlimgbox {
+    width: 130px;
+}
+
+.smlimg {
+    border-radius: 30px;
+    width: 100%;
+    max-height: 160px;
+    min-height: 60px;
+    min-width: 60px;
+    flex-shrink: 3;
+    padding: 1rem;
+}
+
+.campus {
+    background-color: lightgray;
+    border-radius: 30px;
 }
 
 #colmar {
@@ -117,4 +200,6 @@ p {
 #acadamy {
     color: darkgray;
 }
+
+
 
