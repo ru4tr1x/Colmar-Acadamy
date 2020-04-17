@@ -1,10 +1,28 @@
+
+/* CSS Structure = Elements, Header Section, Main Body Class's, ID's*/
+
+
 body {
     width: 100%;
     margin: 0 auto;
     font-family: 'roboto', sans-serifgi;
 }
 
-/*elements*/
+/*ELEMENTS*/
+
+h1 {
+    margin: 0 auto;
+    color: rgb(1, 27, 27);
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(1, 27, 27);
+}
 
 h3 {
     display: flex;
@@ -15,16 +33,11 @@ h3 {
     text-align: center;
 }
 
-h2 {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-    text-align: center;
-}
-
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 p {
@@ -37,6 +50,29 @@ p {
 
 img {
     border-radius: 15px;
+}
+
+a {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+.footer {
+    height: 64px;
+    Top: 64px;
+    left: 5%;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkgray;
+}
+
+.footer a {
+    text-decoration: none;
+    color: darkgray;
+    font-weight: 400;
 }
 
 /* HEADER SECTION ClASS's */
@@ -89,7 +125,7 @@ img {
     color: darkslategray;
 }
 
-/* main body class's */
+/* MAIN BODY CLASS's */
 
 .bigbox {
     display: flex;
@@ -102,18 +138,27 @@ img {
 
 .light {
     background-color: whitesmoke;
-    height: 595px;
+    height: 615px;
 }
 
 .dark {
     background-color: lightgray;
-    height: 580px;
+    height: 575px;
+}
+
+.dark2 {
+    background-color: lightgray;
+    height: 700px;
 }
 
 .container {
     display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 98%;
+    height: 90%;
+    position: relative;
+}
+
+.container2 {
     width: 98%;
     height: 90%;
     position: relative;
@@ -137,6 +182,7 @@ img {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    padding-right: 1rem;
 } 
 
 .infobox button {
@@ -176,7 +222,7 @@ img {
 }
 
 .smlimgbox {
-    width: 130px;
+    width: 160px;
 }
 
 .smlimg {
@@ -193,6 +239,30 @@ img {
     background-color: lightgray;
     border-radius: 30px;
 }
+
+.wrapbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.wrapimg {
+    width: 260px;
+    height: 250px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 15px
+}
+
+.wrapimg img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+/*ID's*/
 
 #colmar {
     color: darkslategray;
