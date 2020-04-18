@@ -148,7 +148,7 @@ a {
 
 .dark2 {
     background-color: lightgray;
-    height: 700px;
+    height: 730px;
 }
 
 .container {
@@ -157,6 +157,53 @@ a {
     height: 90%;
     position: relative;
 }
+
+@media screen and (max-width: 740px) {
+    .container {
+        flex-direction: column;
+        overflow: scroll;
+        align-items: center;
+    }
+
+    #buttonmob {
+        width: 450px;
+    }
+    
+    #infoboxmob {
+        width: 375px;
+        padding-left: 15px;
+        align-items: center;
+        background-color: darkgray;
+        border-radius: 30px;
+    }
+
+    #infoboxmob2 {
+        width: 482px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    #imgboxmob {
+        width: 450px;
+    }
+
+    #imgboxmob2 {
+        width: 450px;
+        padding-bottom: 15px;
+    }
+
+    #vidboxmob {
+        width: 450px;
+    }
+
+    #box4 {
+        height: 860px;
+    }
+
+    #colmar {
+        display: none;
+    }
+} 
 
 .container2 {
     width: 98%;
@@ -177,7 +224,6 @@ a {
 .infobox {
     height: 100%;
     width: 40%;
-    flex-shrink: 2;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -198,7 +244,6 @@ a {
 }
 
 .bigimg {
-    flex-shrink: 2;
     width: 95%;
     border-radius: 15px;
 }
@@ -210,7 +255,6 @@ a {
     display: flex;
     align-content: center;
     align-items: center;
-    flex-shrink: 2;
 }
     
 .info {
@@ -218,7 +262,6 @@ a {
     text-align: center;
     width: 275px;
     min-width: 200px;
-    flex-shrink: 2;
 }
 
 .smlimgbox {
@@ -231,7 +274,6 @@ a {
     max-height: 160px;
     min-height: 60px;
     min-width: 60px;
-    flex-shrink: 3;
     padding: 1rem;
 }
 
@@ -244,14 +286,21 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 85%;
+    max-height: 600px;
     margin: 2rem auto;
+    position: relative;
+    overflow: scroll;
+    background-color: whitesmoke;
+    border-radius: 30px;
+
 }
 
 .wrapimg {
+    flex-shrink: 2;
     width: 260px;
     height: 250px;
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     margin: 10px 10px;
     border-radius: 15px
